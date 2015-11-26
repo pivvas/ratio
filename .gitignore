@@ -1,0 +1,9 @@
+.idea/
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/updates/
+/upload/
+/upload
+upload
+/logs/
