@@ -587,7 +587,7 @@ class CSaleActionCtrlAction extends CGlobalCondCtrlGroup
 			'logic' => array(
 				array(
 					'style' => 'condition-logic-and',
-					'message' => Loc::getMessage('BT_SALE_ACT_GROUP_LOGIC_AND')
+					'message' => Loc::getMessage('BT_SALE_ACT_GROUP_LOGIC_AND').'123123'
 				),
 				array(
 					'style' => 'condition-logic-or',
