@@ -247,9 +247,7 @@ $dbResultList = CSaleBasket::GetLeave(
 	false,
 	array("nPageSize"=>CAdminResult::GetNavSize($sTableID))
 );
-
-_p($dbResultList);
-
+_p($arFilter);
 $dbResultList = new CAdminResult($dbResultList, $sTableID);
 $dbResultList->NavStart();
 

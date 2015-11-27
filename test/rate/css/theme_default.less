@@ -1,0 +1,20 @@
+.starRating{
+  width          : 90px;
+  height         : 16px;
+
+  & > label {
+    background      : url('../img/stars.png');
+    background-position-x: 18px;
+
+    &:before {
+      width           : 18px;
+      height          : 16px;
+      transition      : opacity 0.2s linear;
+      background      : url('../img/stars.png');
+      background-position-x: 0px;
+    }
+
+  }
+
+}
+
